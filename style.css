@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    /* width: 100vw; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 120px;
+}
+
+.navLink{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLink li{
+    padding: 0px 20px;
+}
+.home{
+    color: rgb(99, 204, 99);
+}
+header{
+    background-image: url(./images/Rectangle\ 20\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 1550px;
+    height: 380px;
+    padding: 60px 0px 0px 60px;
+    border-radius: 20px;
+    color: white;
+    margin:20px 0px 0px 120px;
+}
+.h1p1{
+    color: tomato;
+}
+.searchBar{
+    width: 1200px;
+    height: 30px;
+    background-color: rgb(226, 212, 212);
+    border:none;
+}
+main{
+    margin:0px;
+}
+.searchIcon{
+    background-color: green;
+    /* margin-top: 2px; */
+    padding: 3px;
+}
+.pp{
+    display: flex;
+    margin: 0px 0px 0px 120px;
+    align-items: center;
+}
+.searchDiv{
+    display: flex;
+    margin: 20px 0px 0px 120px;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 110px;
+}
+.btn1{
+    color: white;
+    background-color: rgb(245, 218, 64);
+    border: none;
+    border-radius: 10px;
+    padding: 20px 35px;
+    margin: 10px;
+}
+.btn2{
+    color: white;
+    background-color: rgb(78, 241, 78);
+    border: none;
+    border-radius: 10px;
+    padding: 20px 35px;
+    margin: 10px;
+}
+.btn3{
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 35px;
+    margin: 10px;
+}
+.rating{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.rating-p{
+    margin: 10px 0px;
+}
